@@ -19,3 +19,7 @@
   user-select: text;
   font-family: "Poppins", sans-serif;
 }
+.content__nav-bar {
+  display: flex;
+  gap: 4px;
+}
