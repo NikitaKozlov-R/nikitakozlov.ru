@@ -1,0 +1,15 @@
+* {
+  user-select: none;
+}
+.content {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content__img {
+  height: 168px;
+  border-radius: 100%;
+}

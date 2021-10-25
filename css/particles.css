@@ -1,0 +1,19 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+#particles-js {
+  background-color: #0d1117;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
