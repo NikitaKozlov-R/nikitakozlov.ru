@@ -1,15 +1,23 @@
 * {
   user-select: none;
 }
+html {
+}
 .content {
+  text-align: center;
+  max-height: 200px;
+  max-width: 300px;
+  margin: 0 auto;
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .content__img {
   height: 168px;
   border-radius: 100%;
+}
+.content__header {
+  font-size: 24px;
+  color: #c9d1d9;
+  letter-spacing: 4px;
+  user-select: text;
+  font-family: "Poppins", sans-serif;
 }
