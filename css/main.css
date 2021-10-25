@@ -1,5 +1,7 @@
 * {
   user-select: none;
+  margin: 0;
+  padding: 0;
 }
 .content {
   text-align: center;
@@ -7,9 +9,13 @@
   max-width: 300px;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .content__img {
   height: 168px;
+  width: 168px;
   border-radius: 100%;
 }
 .content__header {
@@ -18,8 +24,22 @@
   letter-spacing: 4px;
   user-select: text;
   font-family: "Poppins", sans-serif;
+  margin-top: 24px;
 }
 .content__nav-bar {
   display: flex;
-  gap: 4px;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.content__link {
+  color: #c9d1d9;
+  transition: all .3s ease;
+}
+.content__link:hover {
+  color: #39a6ff;
+  transform: scale(1.2);
+}
+.content__link svg path {
+  fill: currentColor;
 }
